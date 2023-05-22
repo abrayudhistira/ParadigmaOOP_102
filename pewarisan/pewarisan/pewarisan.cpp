@@ -3,7 +3,7 @@
 using namespace std;
 
 class orang {									//membuat class orang
-public:
+public:											//akses modifier
 	string nama;
 
 	orang(string pNama) :
