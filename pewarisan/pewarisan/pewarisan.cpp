@@ -20,7 +20,7 @@ public:											//akses modifier
 };
 
 class pelajar :public orang {						//membuat class pelajar
-public:
+public:												//akses modifier
 	string sekolah;
 
 	pelajar(string pNama, string pSekolah) :
