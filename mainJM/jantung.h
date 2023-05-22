@@ -4,8 +4,8 @@
 using namespace std;
 
 class jantung {		//class jantung						
-public:
-	jantung() {
+public:										//akses modifier
+	jantung() {								//
 		cout << "jantung dihidupkan\n";
 	}
 	~jantung() {
