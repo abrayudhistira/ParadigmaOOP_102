@@ -31,7 +31,7 @@ public:												//akses modifier
 	~pelajar() {										//destructor
 		cout << "pelajar dihapus\n" << endl;
 	}
-	string perkenalan() {
+	string perkenalan() {								//method perkenalan
 		return "Hallo, nama saya " + nama + " dari sekolah " + sekolah + "\n\n";
 	}
 };
