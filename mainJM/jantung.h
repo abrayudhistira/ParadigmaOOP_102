@@ -5,7 +5,7 @@ using namespace std;
 
 class jantung {		//class jantung						
 public:										//akses modifier
-	jantung() {								//
+	jantung() {								//constructor
 		cout << "jantung dihidupkan\n";
 	}
 	~jantung() {
