@@ -14,7 +14,7 @@ public:											//akses modifier
 		cout << "orang dihapus\n" << endl;
 	}
 
-	int jumlah(int a, int b) {					
+	int jumlah(int a, int b) {					//method jumlah
 		return a + b;
 	}
 };
