@@ -3,7 +3,7 @@
 using namespace std;
 
 class manusia {					//class manusia
-public:
+public:							//akses modifier
 	string name;
 	jantung varJantung;
 
