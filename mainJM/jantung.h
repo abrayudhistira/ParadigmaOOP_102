@@ -8,7 +8,7 @@ public:										//akses modifier
 	jantung() {								//constructor
 		cout << "jantung dihidupkan\n";
 	}
-	~jantung() {
+	~jantung() {							//destructor
 		cout << "jantung dimatikan\n";
 	};
 #endif
