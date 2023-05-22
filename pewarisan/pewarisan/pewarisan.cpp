@@ -14,12 +14,12 @@ public:											//akses modifier
 		cout << "orang dihapus\n" << endl;
 	}
 
-	int jumlah(int a, int b) {
+	int jumlah(int a, int b) {					
 		return a + b;
 	}
 };
 
-class pelajar :public orang {
+class pelajar :public orang {						//membuat class pelajar
 public:
 	string sekolah;
 
