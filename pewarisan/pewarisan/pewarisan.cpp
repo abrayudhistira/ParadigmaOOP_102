@@ -10,7 +10,7 @@ public:											//akses modifier
 		nama(pNama) {
 		cout << "orang dibuat\n" << endl;
 	}
-	~orang() {
+	~orang() {									//destructor
 		cout << "orang dihapus\n" << endl;
 	}
 
