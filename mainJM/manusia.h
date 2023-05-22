@@ -7,7 +7,7 @@ public:							//akses modifier
 	string name;
 	jantung varJantung;
 
-	manusia(string pName)
+	manusia(string pName)				//constructor
 		: name(pName) {
 		cout << name << " hidup\n";
 	}
