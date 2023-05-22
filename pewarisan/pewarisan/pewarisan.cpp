@@ -6,7 +6,7 @@ class orang {									//membuat class orang
 public:											//akses modifier
 	string nama;
 
-	orang(string pNama) :
+	orang(string pNama) :						//constructor
 		nama(pNama) {
 		cout << "orang dibuat\n" << endl;
 	}
