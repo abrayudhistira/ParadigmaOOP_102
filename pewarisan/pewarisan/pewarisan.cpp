@@ -23,7 +23,7 @@ class pelajar :public orang {						//membuat class pelajar
 public:												//akses modifier
 	string sekolah;
 
-	pelajar(string pNama, string pSekolah) :
+	pelajar(string pNama, string pSekolah) :			//member function
 		orang(pNama),
 		sekolah(pSekolah) {
 		cout << "pelajar dibuat\n" << endl;
