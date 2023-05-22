@@ -11,7 +11,7 @@ public:							//akses modifier
 		: name(pName) {
 		cout << name << " hidup\n";
 	}
-	~manusia() {
+	~manusia() {						//destructor
 		cout << name << " mati\n";
 	}
 };
