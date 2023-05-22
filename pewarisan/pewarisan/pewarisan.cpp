@@ -28,7 +28,7 @@ public:												//akses modifier
 		sekolah(pSekolah) {
 		cout << "pelajar dibuat\n" << endl;
 	}
-	~pelajar() {
+	~pelajar() {										//destructor
 		cout << "pelajar dihapus\n" << endl;
 	}
 	string perkenalan() {
